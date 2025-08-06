@@ -8,3 +8,17 @@
 
 ```bash
 pip install requests
+
+# 2. Запусти файл:
+python converter.py
+
+# Пример
+Введите город: Almaty
+Погода: 27°C, ясно
+
+# Файл .gitignore
+Создай файл .gitignore в папке проекта, чтобы не выкладывались лишние файлы, и добавь в него:
+.venv/
+__pycache__/
+*.pyc
+.env
